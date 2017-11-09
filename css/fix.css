@@ -1,0 +1,30 @@
+/****************************************
+    All Fix Css
+****************************************/
+.blog-content h3 {
+    text-transform: uppercase;
+}
+textarea {
+    resize: none;
+}
+.blog-content h3 a {
+    color: #2e2e2e;
+    font-family: "montserrat-regular";
+    outline: medium none;
+    text-decoration: none;
+}
+.contact form .col-md-3 strong {
+    position: relative;
+}
+.contact form .col-md-3 strong::after {
+    background: #ddd none repeat scroll 0 0;
+    bottom: -12px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 170px;
+}
+.header-main-text p {
+    line-height: 26px;
+}
